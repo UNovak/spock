@@ -1,0 +1,26 @@
+# Ignore all .env files except .env.example
+.env*
+!.env.example
+
+# Data
+*/pb_data
+
+# Logs
+logs
+_.log
+
+# Caches
+.cache
+
+# Dependency directories
+*/node_modules/
+
+# temporry files
+.temp
+
+# Output
+.output
+.vercel
+*/.svelte-kit
+*/build
+*/dist
