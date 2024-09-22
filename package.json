@@ -1,10 +1,10 @@
 {
   "name": "spock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
-    "dev": "cd web && bun run vite dev",
-    "check": "cd web && bun run svelte-kit sync && bun run svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "cd web && bun run svelte-kit sync && bun run svelte-check --tsconfig ./tsconfig.json --watch",
+    "dev": "cd web && bun dev",
+    "check": "cd web && bun check",
+    "check:watch": "cd web && bun check:watch",
     "server": "cd server && bun dev",
     "db": "cd db && ./pocketbase serve",
     "format": "prettier --write ."
